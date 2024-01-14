@@ -1,0 +1,67 @@
+
+
+API key---AIzaSyB9XtNqzdA9wSovo_52ZBnu9756yDCIPHI
+
+ ****API request
+
+https://www.googleapis.com/youtube/v3/search?key=AIzaSyB9XtNqzdA9wSovo_52ZBnu9756yDCIPHI&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=9
+
+
+
+******Get Channal id
+
+https://www.googleapis.com/youtube/v3/channels?key=AIzaSyB9XtNqzdA9wSovo_52ZBnu9756yDCIPHI&forUsername=Apple&part=id
+
+
+
+
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "mz69kTl4eTWQ_DNpITJReTTsCDY",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "YBIB3kIgzFGk1Uu42kfTJsfeA4w",
+      "id": "UCE_M8A5yxnLfW0KghEeajjw"
+    }
+  ]
+}
+
+
+*****Final JSON file get from youtube
+
+https://www.googleapis.com/youtube/v3/search?key=AIzaSyB9XtNqzdA9wSovo_52ZBnu9756yDCIPHI&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=9
+
+
+
+
+group api key
+AIzaSyBREG8Bw_Fcd7XUN2vapS0DiPHfnSisVN0
+
+channel id
+
+
+  'https://youtube.googleapis.com/youtube/v3/channels?part=id&forUsername=apple&maxResults=9&key=AIzaSyBREG8Bw_Fcd7XUN2vapS0DiPHfnSisVN0' \
+
+
+
+  ==="id": "UCE_M8A5yxnLfW0KghEeajjw"
+
+
+  JSON file
+
+  
+  https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=9&order=date&key=AIzaSyBREG8Bw_Fcd7XUN2vapS0DiPHfnSisVN0
+
+ JSON VIEWER extension
+  https://chromewebstore.google.com/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc?pli=1
+
+
+
+  Note to install React-router-dom
+
+
