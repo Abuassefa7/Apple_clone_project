@@ -58,7 +58,7 @@ function SixthSection() {
 			</section>
 
 			<section>
-				<Youtube9 /> 
+				{/* <Youtube9 />  */}
 			</section>
 		</div>
 	);
